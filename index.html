@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fyle Web Development Challenge</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="app">
+    
+    <div class="search">
+      <input type="text" id="search-input" placeholder="Enter github username...">
+      <button id="search-button">Search</button>
+      <label for="per-page-select" id="show-label"  class="hidden">Repositories per Page:</label>
+      <select id="per-page-select"  class="hidden">
+          <option value="10" selected>10</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+      </select>
+      
+    </div>
+    
+
+    <div class="content">
+      <div class="profile"></div>
+      <div class="repositories"></div>
+      <div class="pagination"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

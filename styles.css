@@ -1,0 +1,128 @@
+.app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 10px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+   
+  }
+  
+  
+  .search button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+     align-items: center;
+  }
+  #show-label {
+    margin-right: 10px; /* Adjust the margin as needed */
+    margin-left: 10px;
+    margin-top:150px;
+   
+  }
+  #per-page-select{
+    margin-top: 150px;
+    
+  }
+  .profile {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .profile img {
+    width: 150px;
+    border-radius: 50%; /* Make the profile picture round */
+  }
+  .tags {
+    margin-top: 10px; /* Adjust spacing between bio and tags */
+  }
+  
+  .repositories {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .repo-card {
+   
+    width: calc(50% - 20px);
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-sizing: border-box; 
+  display: inline-block; 
+  vertical-align: top;
+  }
+  
+  .repo-card:nth-child(even) {
+    margin-right: 0;
+  }
+  
+  .tag {
+    display: inline-block;
+    padding: 4px 8px;
+    background: #007bff; /* Updated color */
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #fff; /* Text color */
+  }
+  
+  .view-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .page-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .page-link.disabled {
+    background: #ccc;
+    pointer-events: none;
+  }
+  
+  .hidden {
+    display: none;
+  }
