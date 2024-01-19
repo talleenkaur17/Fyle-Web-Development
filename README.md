@@ -22,7 +22,5 @@ To run the GitHub User Search locally, follow these steps:
        cd Fyle-Web-Development
 3.Open the project in your preferred code editor:
 
-##Hosting
-The web page is hosted and can be accessed at [https://65aa5083292a580bf8e28afa--dashing-puppy-ed2170.netlify.app/
-    ](url)
+
    
