@@ -18,9 +18,9 @@ To run the GitHub User Search locally, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/github-user-search.git
-2. Navigate to the project directory:
-       cd Fyle-Web-Development
-3.Open the project in your preferred code editor:
+2. Navigate to the project directory:cd Fyle-Web-Development
+3. Open the project in your preferred code editor:
+       
 
 
    
